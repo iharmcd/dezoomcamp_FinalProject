@@ -1,0 +1,9 @@
+version: 1
+
+sources:
+  - name: staging
+    database: <YOUR DATABASE (project in Google Big Query) NAME>
+    schema:  crimes_project
+
+    tables: 
+      - name: dwh_crimes_data
